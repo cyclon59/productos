@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+# Create your views here. asdsasd
 def main(request):
     data={"titulo":"hola"}
     return render(request,'templateAPP1/index.html',data)
